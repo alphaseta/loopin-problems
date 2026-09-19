@@ -1,0 +1,23 @@
+{
+  "id": 1080,
+  "title": "튜플 언패킹으로 교환",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "두 정수 a, b를 튜플 언패킹(a, b = b, a)으로 교환하여 출력하세요.",
+  "inputDescription": "두 정수 a와 b가 공백으로 구분되어 주어진다.",
+  "outputDescription": "교환 후 b와 a 순서로 공백 구분하여 출력한다.",
+  "examples": [
+    { "input": "3 7\n", "output": "7 3\n" }
+  ],
+  "tests": [
+    { "input": "3 7\n", "output": "7 3\n" },
+    { "input": "10 20\n", "output": "20 10\n" },
+    { "input": "-5 5\n", "output": "5 -5\n" },
+    { "input": "100 200\n", "output": "200 100\n" },
+    { "input": "1 1\n", "output": "1 1\n" },
+    { "input": "0 100\n", "output": "100 0\n" },
+    { "input": "-1 -2\n", "output": "-2 -1\n" }
+  ],
+  "starterCode": ""
+}

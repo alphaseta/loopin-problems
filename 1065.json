@@ -1,0 +1,52 @@
+{
+  "id": 1065,
+  "title": "비밀 암호 확인",
+  "category": "기본 조건문 (if, else)",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "입력된 문자열이 정해진 암호와 같은지 조건문으로 확인하세요.",
+  "inputDescription": "첫째 줄에 공백 없는 문자열이 주어진다.",
+  "outputDescription": "문자열이 정확히 LOOPIN이면 ACCESS, 아니면 DENIED를 출력한다.",
+  "examples": [
+    {
+      "input": "LOOPIN\n",
+      "output": "ACCESS\n"
+    },
+    {
+      "input": "loopin\n",
+      "output": "DENIED\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "LOOPIN\n",
+      "output": "ACCESS\n"
+    },
+    {
+      "input": "loopin\n",
+      "output": "DENIED\n"
+    },
+    {
+      "input": "LoopIn\n",
+      "output": "DENIED\n"
+    },
+    {
+      "input": "LOOP\n",
+      "output": "DENIED\n"
+    },
+    {
+      "input": "PYTHON\n",
+      "output": "DENIED\n"
+    },
+    {
+      "input": "LOOPIN1\n",
+      "output": "DENIED\n"
+    },
+    {
+      "input": "ACCESS\n",
+      "output": "DENIED\n"
+    }
+  ],
+  "starterCode": ""
+}

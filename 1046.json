@@ -1,0 +1,52 @@
+{
+  "id": 1046,
+  "title": "한 칸씩 건너뛰기",
+  "category": "문자열 인덱싱과 슬라이싱",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "슬라이싱의 간격을 이용해 짝수 번째 인덱스의 문자만 골라내세요.",
+  "inputDescription": "첫째 줄에 길이가 1 이상인 공백 없는 문자열이 주어진다.",
+  "outputDescription": "인덱스 0, 2, 4, ...에 있는 문자를 이어서 출력한다.",
+  "examples": [
+    {
+      "input": "Python\n",
+      "output": "Pto\n"
+    },
+    {
+      "input": "abcdef\n",
+      "output": "ace\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "Python\n",
+      "output": "Pto\n"
+    },
+    {
+      "input": "abcdef\n",
+      "output": "ace\n"
+    },
+    {
+      "input": "가나다라마바사\n",
+      "output": "가다마사\n"
+    },
+    {
+      "input": "123456789\n",
+      "output": "13579\n"
+    },
+    {
+      "input": "LoopIn\n",
+      "output": "LoI\n"
+    },
+    {
+      "input": "A\n",
+      "output": "A\n"
+    },
+    {
+      "input": "computer\n",
+      "output": "cmue\n"
+    }
+  ],
+  "starterCode": ""
+}

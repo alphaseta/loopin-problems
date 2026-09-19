@@ -1,0 +1,52 @@
+{
+  "id": 1029,
+  "title": "실수의 자료형",
+  "category": "자료형의 종류와 확인 (type)",
+  "level": 0,
+  "levelName": "Starter",
+  "timeLimit": 2000,
+  "description": "입력값을 실수로 만든 뒤 type으로 자료형을 확인하세요.",
+  "inputDescription": "첫째 줄에 실수로 변환할 수 있는 값이 주어진다.",
+  "outputDescription": "실수로 변환한 값에 type을 적용한 결과를 출력한다.",
+  "examples": [
+    {
+      "input": "0\n",
+      "output": "<class 'float'>\n"
+    },
+    {
+      "input": "1.5\n",
+      "output": "<class 'float'>\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "0\n",
+      "output": "<class 'float'>\n"
+    },
+    {
+      "input": "1.5\n",
+      "output": "<class 'float'>\n"
+    },
+    {
+      "input": "-3.25\n",
+      "output": "<class 'float'>\n"
+    },
+    {
+      "input": "100.0\n",
+      "output": "<class 'float'>\n"
+    },
+    {
+      "input": "0.01\n",
+      "output": "<class 'float'>\n"
+    },
+    {
+      "input": "42\n",
+      "output": "<class 'float'>\n"
+    },
+    {
+      "input": "-0.5\n",
+      "output": "<class 'float'>\n"
+    }
+  ],
+  "starterCode": ""
+}

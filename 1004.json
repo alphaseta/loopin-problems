@@ -1,0 +1,43 @@
+{
+  "id": 1004,
+  "title": "짝수의 합",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "N개의 정수가 주어질 때, 그중 짝수인 수의 합을 출력하세요.",
+  "inputDescription": "첫째 줄에 정수 N이 주어진다. 둘째 줄에 N개의 정수가 공백으로 구분되어 주어진다.",
+  "outputDescription": "주어진 정수 중 짝수인 수의 합을 출력한다. 짝수가 없다면 0을 출력한다.",
+  "examples": [
+    {
+      "input": "5\n1 2 3 4 5\n",
+      "output": "6\n"
+    },
+    {
+      "input": "3\n1 3 5\n",
+      "output": "0\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "5\n1 2 3 4 5\n",
+      "output": "6\n"
+    },
+    {
+      "input": "3\n1 3 5\n",
+      "output": "0\n"
+    },
+    {
+      "input": "1\n8\n",
+      "output": "8\n"
+    },
+    {
+      "input": "6\n-4 -3 -2 -1 0 5\n",
+      "output": "-6\n"
+    },
+    {
+      "input": "4\n1000000 999999 2 -2\n",
+      "output": "1000000\n"
+    }
+  ],
+  "starterCode": ""
+}

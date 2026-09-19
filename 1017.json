@@ -1,0 +1,52 @@
+{
+  "id": 1017,
+  "title": "반가운 첫 인사",
+  "category": "변수와 출력 (print)",
+  "level": 0,
+  "levelName": "Starter",
+  "timeLimit": 2000,
+  "description": "이름을 변수에 저장하고 정해진 인사말과 함께 출력하세요.",
+  "inputDescription": "첫째 줄에 공백이 없는 이름이 주어진다.",
+  "outputDescription": "안녕하세요, 이름! 형식으로 출력한다.",
+  "examples": [
+    {
+      "input": "준서\n",
+      "output": "안녕하세요, 준서!\n"
+    },
+    {
+      "input": "Mina\n",
+      "output": "안녕하세요, Mina!\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "준서\n",
+      "output": "안녕하세요, 준서!\n"
+    },
+    {
+      "input": "Mina\n",
+      "output": "안녕하세요, Mina!\n"
+    },
+    {
+      "input": "Python\n",
+      "output": "안녕하세요, Python!\n"
+    },
+    {
+      "input": "LoopIn\n",
+      "output": "안녕하세요, LoopIn!\n"
+    },
+    {
+      "input": "홍길동\n",
+      "output": "안녕하세요, 홍길동!\n"
+    },
+    {
+      "input": "A\n",
+      "output": "안녕하세요, A!\n"
+    },
+    {
+      "input": "코딩친구\n",
+      "output": "안녕하세요, 코딩친구!\n"
+    }
+  ],
+  "starterCode": ""
+}

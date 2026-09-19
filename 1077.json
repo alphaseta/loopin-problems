@@ -1,0 +1,23 @@
+{
+  "id": 1077,
+  "title": "튜플의 합과 개수",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "N개의 정수를 튜플로 만들어 합과 원소 개수를 출력하세요.",
+  "inputDescription": "첫째 줄에 N이 주어진다. 둘째 줄에 N개의 정수가 공백으로 구분되어 주어진다.",
+  "outputDescription": "첫째 줄에 합, 둘째 줄에 원소 개수를 출력한다.",
+  "examples": [
+    { "input": "5\n1 2 3 4 5\n", "output": "15\n5\n" }
+  ],
+  "tests": [
+    { "input": "5\n1 2 3 4 5\n", "output": "15\n5\n" },
+    { "input": "3\n10 20 30\n", "output": "60\n3\n" },
+    { "input": "4\n-1 -2 3 4\n", "output": "4\n4\n" },
+    { "input": "1\n100\n", "output": "100\n1\n" },
+    { "input": "6\n1 1 1 1 1 1\n", "output": "6\n6\n" },
+    { "input": "5\n0 0 0 0 0\n", "output": "0\n5\n" },
+    { "input": "3\n7 8 9\n", "output": "24\n3\n" }
+  ],
+  "starterCode": ""
+}

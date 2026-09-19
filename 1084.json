@@ -1,0 +1,23 @@
+{
+  "id": 1084,
+  "title": "최고점 학생",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "N명의 이름과 점수를 딕셔너리에 저장하여 가장 높은 점수를 받은 학생의 이름을 출력하세요. 동점자는 없습니다.",
+  "inputDescription": "첫째 줄에 N이 주어진다. 이후 N줄에 이름(영소문자)과 점수(정수)가 공백으로 주어진다.",
+  "outputDescription": "가장 높은 점수를 받은 학생의 이름을 출력한다.",
+  "examples": [
+    { "input": "3\nalice 85\nbob 92\ncarol 78\n", "output": "bob\n" }
+  ],
+  "tests": [
+    { "input": "3\nalice 85\nbob 92\ncarol 78\n", "output": "bob\n" },
+    { "input": "4\na 100\nb 99\nc 98\nd 97\n", "output": "a\n" },
+    { "input": "2\nkim 70\nlee 80\n", "output": "lee\n" },
+    { "input": "3\nx 55\ny 60\nz 65\n", "output": "z\n" },
+    { "input": "5\np 90\nq 85\nr 95\ns 80\nt 70\n", "output": "r\n" },
+    { "input": "1\nsolo 100\n", "output": "solo\n" },
+    { "input": "3\naaa 50\nbbb 60\nccc 55\n", "output": "bbb\n" }
+  ],
+  "starterCode": ""
+}

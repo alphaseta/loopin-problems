@@ -1,0 +1,26 @@
+{
+  "id": 1110,
+  "title": "회문 판별 함수",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "문자열이 회문(앞뒤로 읽어도 같은 문자열)인지 판별하는 함수 is_palindrome(s)을 def로 정의하고 호출하세요.",
+  "inputDescription": "공백 없는 소문자 영어 문자열이 주어진다.",
+  "outputDescription": "회문이면 YES, 아니면 NO를 출력한다.",
+  "examples": [
+    { "input": "racecar\n", "output": "YES\n" }
+  ],
+  "tests": [
+    { "input": "racecar\n", "output": "YES\n" },
+    { "input": "hello\n", "output": "NO\n" },
+    { "input": "level\n", "output": "YES\n" },
+    { "input": "python\n", "output": "NO\n" },
+    { "input": "aba\n", "output": "YES\n" },
+    { "input": "abba\n", "output": "YES\n" },
+    { "input": "abc\n", "output": "NO\n" },
+    { "input": "madam\n", "output": "YES\n" },
+    { "input": "noon\n", "output": "YES\n" },
+    { "input": "abcba\n", "output": "YES\n" }
+  ],
+  "starterCode": ""
+}

@@ -1,0 +1,31 @@
+{
+    "id": 1003,
+    "title": "가장 큰 수",
+    "level": 1,
+    "levelName": "Basic",
+    "timeLimit": 2000,
+    "description": "N개의 정수 중 가장 큰 값을 출력하세요.",
+    "inputDescription": "첫째 줄에 N이 주어진다. 둘째 줄에 N개의 정수가 주어진다.",
+    "outputDescription": "가장 큰 정수를 출력한다.",
+    "examples": [
+        {
+            "input": "5\n1 9 3 7 2\n",
+            "output": "9\n"
+        }
+    ],
+    "tests": [
+        {
+            "input": "5\n1 9 3 7 2\n",
+            "output": "9\n"
+        },
+        {
+            "input": "4\n-10 -20 -3 -7\n",
+            "output": "-3\n"
+        },
+        {
+            "input": "1\n100\n",
+            "output": "100\n"
+        }
+    ],
+    "starterCode": ""
+}

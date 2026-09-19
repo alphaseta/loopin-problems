@@ -1,0 +1,30 @@
+{
+  "id": 1070,
+  "title": "연령대 분류",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "나이를 입력받아 elif를 사용하여 연령대를 출력하세요.\n0~6세: 영유아\n7~12세: 어린이\n13~18세: 청소년\n19~64세: 성인\n65세 이상: 노인",
+  "inputDescription": "0 이상의 정수(나이)가 주어진다.",
+  "outputDescription": "해당 연령대(영유아, 어린이, 청소년, 성인, 노인)를 출력한다.",
+  "examples": [
+    { "input": "15\n", "output": "청소년\n" }
+  ],
+  "tests": [
+    { "input": "3\n", "output": "영유아\n" },
+    { "input": "10\n", "output": "어린이\n" },
+    { "input": "15\n", "output": "청소년\n" },
+    { "input": "30\n", "output": "성인\n" },
+    { "input": "70\n", "output": "노인\n" },
+    { "input": "0\n", "output": "영유아\n" },
+    { "input": "6\n", "output": "영유아\n" },
+    { "input": "7\n", "output": "어린이\n" },
+    { "input": "12\n", "output": "어린이\n" },
+    { "input": "13\n", "output": "청소년\n" },
+    { "input": "18\n", "output": "청소년\n" },
+    { "input": "19\n", "output": "성인\n" },
+    { "input": "64\n", "output": "성인\n" },
+    { "input": "65\n", "output": "노인\n" }
+  ],
+  "starterCode": ""
+}

@@ -1,0 +1,28 @@
+{
+  "id": 1068,
+  "title": "계절 판별",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "월을 입력받아 elif를 사용하여 계절을 출력하세요.\n봄: 3, 4, 5월\n여름: 6, 7, 8월\n가을: 9, 10, 11월\n겨울: 12, 1, 2월",
+  "inputDescription": "1 이상 12 이하의 정수(월)가 주어진다.",
+  "outputDescription": "해당 계절(봄, 여름, 가을, 겨울)을 출력한다.",
+  "examples": [
+    { "input": "7\n", "output": "여름\n" }
+  ],
+  "tests": [
+    { "input": "3\n", "output": "봄\n" },
+    { "input": "6\n", "output": "여름\n" },
+    { "input": "9\n", "output": "가을\n" },
+    { "input": "12\n", "output": "겨울\n" },
+    { "input": "1\n", "output": "겨울\n" },
+    { "input": "2\n", "output": "겨울\n" },
+    { "input": "4\n", "output": "봄\n" },
+    { "input": "5\n", "output": "봄\n" },
+    { "input": "7\n", "output": "여름\n" },
+    { "input": "8\n", "output": "여름\n" },
+    { "input": "10\n", "output": "가을\n" },
+    { "input": "11\n", "output": "가을\n" }
+  ],
+  "starterCode": ""
+}

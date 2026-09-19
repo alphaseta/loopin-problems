@@ -1,0 +1,52 @@
+{
+  "id": 1049,
+  "title": "쉼표 목록 연결",
+  "category": "문자열 메서드 (split, join, replace)",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "쉼표로 나뉜 항목을 split한 뒤 슬래시로 join하세요.",
+  "inputDescription": "첫째 줄에 쉼표로 구분된 하나 이상의 항목이 주어진다. 항목에는 공백이 없다.",
+  "outputDescription": "항목을 /로 연결하여 출력한다.",
+  "examples": [
+    {
+      "input": "red,green,blue\n",
+      "output": "red/green/blue\n"
+    },
+    {
+      "input": "one,two\n",
+      "output": "one/two\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "red,green,blue\n",
+      "output": "red/green/blue\n"
+    },
+    {
+      "input": "one,two\n",
+      "output": "one/two\n"
+    },
+    {
+      "input": "single\n",
+      "output": "single\n"
+    },
+    {
+      "input": "1,2,3,4\n",
+      "output": "1/2/3/4\n"
+    },
+    {
+      "input": "가,나,다\n",
+      "output": "가/나/다\n"
+    },
+    {
+      "input": "html,css,js\n",
+      "output": "html/css/js\n"
+    },
+    {
+      "input": "2026,09,06\n",
+      "output": "2026/09/06\n"
+    }
+  ],
+  "starterCode": ""
+}

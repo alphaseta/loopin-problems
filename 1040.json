@@ -1,0 +1,52 @@
+{
+  "id": 1040,
+  "title": "점수 업데이트",
+  "category": "산술 연산자와 대입 연산자",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "시작 점수에 보너스를 더하고 배수를 곱한 뒤 벌점을 빼세요.",
+  "inputDescription": "한 줄에 시작 점수 S, 보너스 A, 배수 B, 벌점 C가 주어진다.",
+  "outputDescription": "S에 A를 더하고, B를 곱하고, C를 뺀 최종 점수를 출력한다.",
+  "examples": [
+    {
+      "input": "10 5 2 3\n",
+      "output": "27\n"
+    },
+    {
+      "input": "0 10 3 5\n",
+      "output": "25\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "10 5 2 3\n",
+      "output": "27\n"
+    },
+    {
+      "input": "0 10 3 5\n",
+      "output": "25\n"
+    },
+    {
+      "input": "100 0 1 0\n",
+      "output": "100\n"
+    },
+    {
+      "input": "-5 10 2 1\n",
+      "output": "9\n"
+    },
+    {
+      "input": "7 3 4 10\n",
+      "output": "30\n"
+    },
+    {
+      "input": "50 20 0 5\n",
+      "output": "-5\n"
+    },
+    {
+      "input": "1 1 10 1\n",
+      "output": "19\n"
+    }
+  ],
+  "starterCode": ""
+}

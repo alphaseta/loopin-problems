@@ -1,0 +1,52 @@
+{
+  "id": 1018,
+  "title": "두 줄 이름표",
+  "category": "변수와 출력 (print)",
+  "level": 0,
+  "levelName": "Starter",
+  "timeLimit": 2000,
+  "description": "이름과 소속을 각각 변수에 저장한 뒤 두 줄로 출력하세요.",
+  "inputDescription": "첫째 줄에 이름, 둘째 줄에 소속이 주어진다.",
+  "outputDescription": "첫째 줄에 이름: 값, 둘째 줄에 소속: 값을 출력한다.",
+  "examples": [
+    {
+      "input": "오우\n파이썬반\n",
+      "output": "이름: 오우\n소속: 파이썬반\n"
+    },
+    {
+      "input": "Alice\nLoopLab\n",
+      "output": "이름: Alice\n소속: LoopLab\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "오우\n파이썬반\n",
+      "output": "이름: 오우\n소속: 파이썬반\n"
+    },
+    {
+      "input": "Alice\nLoopLab\n",
+      "output": "이름: Alice\n소속: LoopLab\n"
+    },
+    {
+      "input": "민수\n1학년 3반\n",
+      "output": "이름: 민수\n소속: 1학년 3반\n"
+    },
+    {
+      "input": "Code\nSchool\n",
+      "output": "이름: Code\n소속: School\n"
+    },
+    {
+      "input": "하늘\n알고리즘부\n",
+      "output": "이름: 하늘\n소속: 알고리즘부\n"
+    },
+    {
+      "input": "B\nTeam7\n",
+      "output": "이름: B\n소속: Team7\n"
+    },
+    {
+      "input": "루프\n온라인반\n",
+      "output": "이름: 루프\n소속: 온라인반\n"
+    }
+  ],
+  "starterCode": ""
+}

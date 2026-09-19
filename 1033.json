@@ -1,0 +1,52 @@
+{
+  "id": 1033,
+  "title": "실수 두 배",
+  "category": "형 변환 (Type Casting)",
+  "level": 0,
+  "levelName": "Starter",
+  "timeLimit": 2000,
+  "description": "입력값을 float로 변환하고 두 배로 계산하세요.",
+  "inputDescription": "첫째 줄에 절댓값이 1000 이하인 실수가 주어진다.",
+  "outputDescription": "실수로 변환한 값에 2를 곱한 결과를 출력한다.",
+  "examples": [
+    {
+      "input": "1.5\n",
+      "output": "3.0\n"
+    },
+    {
+      "input": "2\n",
+      "output": "4.0\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "1.5\n",
+      "output": "3.0\n"
+    },
+    {
+      "input": "2\n",
+      "output": "4.0\n"
+    },
+    {
+      "input": "0\n",
+      "output": "0.0\n"
+    },
+    {
+      "input": "-3.25\n",
+      "output": "-6.5\n"
+    },
+    {
+      "input": "10.1\n",
+      "output": "20.2\n"
+    },
+    {
+      "input": "0.5\n",
+      "output": "1.0\n"
+    },
+    {
+      "input": "-100\n",
+      "output": "-200.0\n"
+    }
+  ],
+  "starterCode": ""
+}

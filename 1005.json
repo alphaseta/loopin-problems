@@ -1,0 +1,39 @@
+{
+  "id": 1005,
+  "title": "양수의 개수",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "N개의 정수 중 0보다 큰 수의 개수를 출력하세요.",
+  "inputDescription": "첫째 줄에 정수 N이 주어진다. 둘째 줄에 N개의 정수가 공백으로 구분되어 주어진다. (1 ≤ N ≤ 1000)",
+  "outputDescription": "0보다 큰 정수의 개수를 출력한다. 0은 양수가 아니다.",
+  "examples": [
+    {
+      "input": "5\n-1 0 2 3 -4\n",
+      "output": "2\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "5\n-1 0 2 3 -4\n",
+      "output": "2\n"
+    },
+    {
+      "input": "1\n0\n",
+      "output": "0\n"
+    },
+    {
+      "input": "4\n1 2 3 4\n",
+      "output": "4\n"
+    },
+    {
+      "input": "5\n-5 -4 -3 -2 -1\n",
+      "output": "0\n"
+    },
+    {
+      "input": "6\n10 -10 20 0 -1 1\n",
+      "output": "3\n"
+    }
+  ],
+  "starterCode": ""
+}

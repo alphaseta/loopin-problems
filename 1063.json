@@ -1,0 +1,52 @@
+{
+  "id": 1063,
+  "title": "합격 판정",
+  "category": "기본 조건문 (if, else)",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "점수가 합격 기준을 넘었는지 조건문으로 판정하세요.",
+  "inputDescription": "첫째 줄에 0 이상 100 이하의 정수 점수가 주어진다.",
+  "outputDescription": "점수가 60 이상이면 PASS, 아니면 FAIL을 출력한다.",
+  "examples": [
+    {
+      "input": "60\n",
+      "output": "PASS\n"
+    },
+    {
+      "input": "59\n",
+      "output": "FAIL\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "60\n",
+      "output": "PASS\n"
+    },
+    {
+      "input": "59\n",
+      "output": "FAIL\n"
+    },
+    {
+      "input": "100\n",
+      "output": "PASS\n"
+    },
+    {
+      "input": "0\n",
+      "output": "FAIL\n"
+    },
+    {
+      "input": "75\n",
+      "output": "PASS\n"
+    },
+    {
+      "input": "42\n",
+      "output": "FAIL\n"
+    },
+    {
+      "input": "99\n",
+      "output": "PASS\n"
+    }
+  ],
+  "starterCode": ""
+}

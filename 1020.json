@@ -1,0 +1,52 @@
+{
+  "id": 1020,
+  "title": "세 단어 세 줄",
+  "category": "변수와 출력 (print)",
+  "level": 0,
+  "levelName": "Starter",
+  "timeLimit": 2000,
+  "description": "세 단어를 각각 변수에 저장하고 입력된 순서대로 한 줄에 하나씩 출력하세요.",
+  "inputDescription": "한 줄에 공백이 없는 세 단어가 공백으로 구분되어 주어진다.",
+  "outputDescription": "세 단어를 입력 순서대로 각각 한 줄에 출력한다.",
+  "examples": [
+    {
+      "input": "red green blue\n",
+      "output": "red\ngreen\nblue\n"
+    },
+    {
+      "input": "하나 둘 셋\n",
+      "output": "하나\n둘\n셋\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "red green blue\n",
+      "output": "red\ngreen\nblue\n"
+    },
+    {
+      "input": "하나 둘 셋\n",
+      "output": "하나\n둘\n셋\n"
+    },
+    {
+      "input": "cat dog bird\n",
+      "output": "cat\ndog\nbird\n"
+    },
+    {
+      "input": "A B C\n",
+      "output": "A\nB\nC\n"
+    },
+    {
+      "input": "봄 여름 가을\n",
+      "output": "봄\n여름\n가을\n"
+    },
+    {
+      "input": "print input type\n",
+      "output": "print\ninput\ntype\n"
+    },
+    {
+      "input": "sun moon star\n",
+      "output": "sun\nmoon\nstar\n"
+    }
+  ],
+  "starterCode": ""
+}

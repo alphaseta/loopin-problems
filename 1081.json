@@ -1,0 +1,24 @@
+{
+  "id": 1081,
+  "title": "좌표 맨해튼 거리",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "두 점의 좌표를 각각 튜플로 저장하여 맨해튼 거리를 계산하세요.\n맨해튼 거리 = |x1-x2| + |y1-y2|",
+  "inputDescription": "x1 y1 x2 y2가 공백으로 구분되어 주어진다.",
+  "outputDescription": "맨해튼 거리를 출력한다.",
+  "examples": [
+    { "input": "0 0 3 4\n", "output": "7\n" }
+  ],
+  "tests": [
+    { "input": "0 0 3 4\n", "output": "7\n" },
+    { "input": "1 1 1 1\n", "output": "0\n" },
+    { "input": "-1 -1 1 1\n", "output": "4\n" },
+    { "input": "0 0 10 10\n", "output": "20\n" },
+    { "input": "3 5 7 2\n", "output": "7\n" },
+    { "input": "5 5 0 0\n", "output": "10\n" },
+    { "input": "-3 4 3 -4\n", "output": "14\n" },
+    { "input": "1 2 4 6\n", "output": "7\n" }
+  ],
+  "starterCode": ""
+}

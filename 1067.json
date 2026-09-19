@@ -1,0 +1,28 @@
+{
+  "id": 1067,
+  "title": "학점 계산",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "점수를 입력받아 elif를 사용하여 학점을 출력하세요.\n90점 이상: A\n80점 이상: B\n70점 이상: C\n60점 이상: D\n60점 미만: F",
+  "inputDescription": "0 이상 100 이하의 정수가 주어진다.",
+  "outputDescription": "해당 학점(A, B, C, D, F)을 출력한다.",
+  "examples": [
+    { "input": "85\n", "output": "B\n" }
+  ],
+  "tests": [
+    { "input": "95\n", "output": "A\n" },
+    { "input": "85\n", "output": "B\n" },
+    { "input": "75\n", "output": "C\n" },
+    { "input": "65\n", "output": "D\n" },
+    { "input": "50\n", "output": "F\n" },
+    { "input": "100\n", "output": "A\n" },
+    { "input": "90\n", "output": "A\n" },
+    { "input": "80\n", "output": "B\n" },
+    { "input": "70\n", "output": "C\n" },
+    { "input": "60\n", "output": "D\n" },
+    { "input": "59\n", "output": "F\n" },
+    { "input": "0\n", "output": "F\n" }
+  ],
+  "starterCode": ""
+}

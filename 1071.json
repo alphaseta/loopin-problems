@@ -1,0 +1,26 @@
+{
+  "id": 1071,
+  "title": "택배 요금 계산",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "택배 무게를 입력받아 elif를 사용하여 요금을 출력하세요.\n2kg 이하: 3000원\n5kg 이하: 4500원\n10kg 이하: 6000원\n20kg 이하: 8000원\n20kg 초과: 11000원",
+  "inputDescription": "양의 정수(kg 단위 무게)가 주어진다.",
+  "outputDescription": "택배 요금(원)을 출력한다.",
+  "examples": [
+    { "input": "7\n", "output": "6000\n" }
+  ],
+  "tests": [
+    { "input": "1\n", "output": "3000\n" },
+    { "input": "2\n", "output": "3000\n" },
+    { "input": "3\n", "output": "4500\n" },
+    { "input": "5\n", "output": "4500\n" },
+    { "input": "6\n", "output": "6000\n" },
+    { "input": "10\n", "output": "6000\n" },
+    { "input": "11\n", "output": "8000\n" },
+    { "input": "20\n", "output": "8000\n" },
+    { "input": "21\n", "output": "11000\n" },
+    { "input": "50\n", "output": "11000\n" }
+  ],
+  "starterCode": ""
+}

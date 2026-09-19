@@ -1,0 +1,52 @@
+{
+  "id": 1048,
+  "title": "하이픈을 공백으로",
+  "category": "문자열 메서드 (split, join, replace)",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "replace를 사용하여 모든 하이픈을 공백으로 바꾸세요.",
+  "inputDescription": "첫째 줄에 하이픈을 포함할 수 있는 문자열이 주어진다.",
+  "outputDescription": "모든 -를 공백으로 바꾼 문자열을 출력한다.",
+  "examples": [
+    {
+      "input": "hello-world\n",
+      "output": "hello world\n"
+    },
+    {
+      "input": "2026-09-06\n",
+      "output": "2026 09 06\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "hello-world\n",
+      "output": "hello world\n"
+    },
+    {
+      "input": "2026-09-06\n",
+      "output": "2026 09 06\n"
+    },
+    {
+      "input": "no-hyphen-here\n",
+      "output": "no hyphen here\n"
+    },
+    {
+      "input": "A-B-C-D\n",
+      "output": "A B C D\n"
+    },
+    {
+      "input": "파이썬-문자열\n",
+      "output": "파이썬 문자열\n"
+    },
+    {
+      "input": "---\n",
+      "output": "   \n"
+    },
+    {
+      "input": "already clean\n",
+      "output": "already clean\n"
+    }
+  ],
+  "starterCode": ""
+}

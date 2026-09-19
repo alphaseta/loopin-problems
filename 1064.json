@@ -1,0 +1,52 @@
+{
+  "id": 1064,
+  "title": "짝수 홀수 판정",
+  "category": "기본 조건문 (if, else)",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "정수가 짝수인지 홀수인지 조건문으로 판정하세요.",
+  "inputDescription": "첫째 줄에 정수 N이 주어진다.",
+  "outputDescription": "짝수이면 EVEN, 홀수이면 ODD를 출력한다.",
+  "examples": [
+    {
+      "input": "0\n",
+      "output": "EVEN\n"
+    },
+    {
+      "input": "1\n",
+      "output": "ODD\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "0\n",
+      "output": "EVEN\n"
+    },
+    {
+      "input": "1\n",
+      "output": "ODD\n"
+    },
+    {
+      "input": "2\n",
+      "output": "EVEN\n"
+    },
+    {
+      "input": "-3\n",
+      "output": "ODD\n"
+    },
+    {
+      "input": "-4\n",
+      "output": "EVEN\n"
+    },
+    {
+      "input": "999\n",
+      "output": "ODD\n"
+    },
+    {
+      "input": "100000\n",
+      "output": "EVEN\n"
+    }
+  ],
+  "starterCode": ""
+}

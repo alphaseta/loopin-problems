@@ -1,0 +1,52 @@
+{
+  "id": 1035,
+  "title": "소수점 버리기",
+  "category": "형 변환 (Type Casting)",
+  "level": 0,
+  "levelName": "Starter",
+  "timeLimit": 2000,
+  "description": "실수를 int로 변환하여 소수점 이하 부분을 버리세요.",
+  "inputDescription": "첫째 줄에 절댓값이 10000 이하인 실수가 주어진다.",
+  "outputDescription": "int로 변환한 정수를 출력한다.",
+  "examples": [
+    {
+      "input": "3.99\n",
+      "output": "3\n"
+    },
+    {
+      "input": "-3.99\n",
+      "output": "-3\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "3.99\n",
+      "output": "3\n"
+    },
+    {
+      "input": "-3.99\n",
+      "output": "-3\n"
+    },
+    {
+      "input": "0.75\n",
+      "output": "0\n"
+    },
+    {
+      "input": "10.0\n",
+      "output": "10\n"
+    },
+    {
+      "input": "999.001\n",
+      "output": "999\n"
+    },
+    {
+      "input": "-0.1\n",
+      "output": "0\n"
+    },
+    {
+      "input": "42.5\n",
+      "output": "42\n"
+    }
+  ],
+  "starterCode": ""
+}

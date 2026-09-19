@@ -1,0 +1,52 @@
+{
+  "id": 1027,
+  "title": "입력값의 자료형",
+  "category": "자료형의 종류와 확인 (type)",
+  "level": 0,
+  "levelName": "Starter",
+  "timeLimit": 2000,
+  "description": "input 함수가 돌려주는 값의 자료형을 type으로 확인하세요.",
+  "inputDescription": "첫째 줄에 문자열이 주어진다.",
+  "outputDescription": "입력값에 type을 적용한 결과를 출력한다.",
+  "examples": [
+    {
+      "input": "hello\n",
+      "output": "<class 'str'>\n"
+    },
+    {
+      "input": "123\n",
+      "output": "<class 'str'>\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "hello\n",
+      "output": "<class 'str'>\n"
+    },
+    {
+      "input": "123\n",
+      "output": "<class 'str'>\n"
+    },
+    {
+      "input": "3.14\n",
+      "output": "<class 'str'>\n"
+    },
+    {
+      "input": "True\n",
+      "output": "<class 'str'>\n"
+    },
+    {
+      "input": "0\n",
+      "output": "<class 'str'>\n"
+    },
+    {
+      "input": "파이썬\n",
+      "output": "<class 'str'>\n"
+    },
+    {
+      "input": "1 2 3\n",
+      "output": "<class 'str'>\n"
+    }
+  ],
+  "starterCode": ""
+}

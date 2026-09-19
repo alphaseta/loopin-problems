@@ -1,0 +1,52 @@
+{
+  "id": 1025,
+  "title": "오늘의 계획",
+  "category": "기본 입력 (input)",
+  "level": 0,
+  "levelName": "Starter",
+  "timeLimit": 2000,
+  "description": "오전과 오후의 계획을 두 번 입력받아 일정표로 출력하세요.",
+  "inputDescription": "첫째 줄에 오전 계획, 둘째 줄에 오후 계획이 주어진다.",
+  "outputDescription": "두 계획을 각각 오전: 계획, 오후: 계획 형식으로 출력한다.",
+  "examples": [
+    {
+      "input": "수학 공부\n코딩 연습\n",
+      "output": "오전: 수학 공부\n오후: 코딩 연습\n"
+    },
+    {
+      "input": "산책\n독서\n",
+      "output": "오전: 산책\n오후: 독서\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "수학 공부\n코딩 연습\n",
+      "output": "오전: 수학 공부\n오후: 코딩 연습\n"
+    },
+    {
+      "input": "산책\n독서\n",
+      "output": "오전: 산책\n오후: 독서\n"
+    },
+    {
+      "input": "문제 풀이\n복습\n",
+      "output": "오전: 문제 풀이\n오후: 복습\n"
+    },
+    {
+      "input": "회의\n운동\n",
+      "output": "오전: 회의\n오후: 운동\n"
+    },
+    {
+      "input": "Python\n프로젝트\n",
+      "output": "오전: Python\n오후: 프로젝트\n"
+    },
+    {
+      "input": "청소\n영화 보기\n",
+      "output": "오전: 청소\n오후: 영화 보기\n"
+    },
+    {
+      "input": "학교\n학원\n",
+      "output": "오전: 학교\n오후: 학원\n"
+    }
+  ],
+  "starterCode": ""
+}

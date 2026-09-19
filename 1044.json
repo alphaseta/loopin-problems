@@ -1,0 +1,52 @@
+{
+  "id": 1044,
+  "title": "앞 세 글자와 뒤 세 글자",
+  "category": "문자열 인덱싱과 슬라이싱",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "슬라이싱으로 문자열의 앞부분과 뒷부분을 잘라내세요.",
+  "inputDescription": "첫째 줄에 길이가 3 이상인 공백 없는 문자열이 주어진다.",
+  "outputDescription": "앞의 세 문자와 뒤의 세 문자를 공백으로 구분하여 출력한다.",
+  "examples": [
+    {
+      "input": "Python\n",
+      "output": "Pyt hon\n"
+    },
+    {
+      "input": "abcdef\n",
+      "output": "abc def\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "Python\n",
+      "output": "Pyt hon\n"
+    },
+    {
+      "input": "abcdef\n",
+      "output": "abc def\n"
+    },
+    {
+      "input": "가나다라마바사\n",
+      "output": "가나다 마바사\n"
+    },
+    {
+      "input": "123456789\n",
+      "output": "123 789\n"
+    },
+    {
+      "input": "LoopIn\n",
+      "output": "Loo pIn\n"
+    },
+    {
+      "input": "ABC\n",
+      "output": "ABC ABC\n"
+    },
+    {
+      "input": "computer\n",
+      "output": "com ter\n"
+    }
+  ],
+  "starterCode": ""
+}

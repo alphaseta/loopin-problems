@@ -1,0 +1,52 @@
+{
+  "id": 1056,
+  "title": "온도 한 자리 표시",
+  "category": "문자열 포매팅 (f-string)",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "실수 온도를 소수점 아래 한 자리까지 포매팅하세요.",
+  "inputDescription": "첫째 줄에 절댓값이 1000 이하인 실수 온도가 주어진다.",
+  "outputDescription": "현재 온도는 T°C입니다. 형식으로 출력하되 T는 소수점 아래 한 자리까지 표시한다.",
+  "examples": [
+    {
+      "input": "23\n",
+      "output": "현재 온도는 23.0°C입니다.\n"
+    },
+    {
+      "input": "18.56\n",
+      "output": "현재 온도는 18.6°C입니다.\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "23\n",
+      "output": "현재 온도는 23.0°C입니다.\n"
+    },
+    {
+      "input": "18.56\n",
+      "output": "현재 온도는 18.6°C입니다.\n"
+    },
+    {
+      "input": "-5.04\n",
+      "output": "현재 온도는 -5.0°C입니다.\n"
+    },
+    {
+      "input": "0\n",
+      "output": "현재 온도는 0.0°C입니다.\n"
+    },
+    {
+      "input": "100.99\n",
+      "output": "현재 온도는 101.0°C입니다.\n"
+    },
+    {
+      "input": "36.5\n",
+      "output": "현재 온도는 36.5°C입니다.\n"
+    },
+    {
+      "input": "-12.75\n",
+      "output": "현재 온도는 -12.8°C입니다.\n"
+    }
+  ],
+  "starterCode": ""
+}

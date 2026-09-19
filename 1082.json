@@ -1,0 +1,23 @@
+{
+  "id": 1082,
+  "title": "성적 평균 계산",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "N명의 이름과 점수를 딕셔너리에 저장하고 전체 평균을 출력하세요. 평균은 소수점 이하를 버립니다.",
+  "inputDescription": "첫째 줄에 N이 주어진다. 이후 N줄에 이름(영소문자)과 점수(정수)가 공백으로 주어진다.",
+  "outputDescription": "전체 평균(소수점 이하 버림)을 출력한다.",
+  "examples": [
+    { "input": "3\nalice 80\nbob 90\ncarol 70\n", "output": "80\n" }
+  ],
+  "tests": [
+    { "input": "3\nalice 80\nbob 90\ncarol 70\n", "output": "80\n" },
+    { "input": "4\na 100\nb 100\nc 100\nd 100\n", "output": "100\n" },
+    { "input": "2\nx 30\ny 40\n", "output": "35\n" },
+    { "input": "5\na 10\nb 20\nc 30\nd 40\ne 50\n", "output": "30\n" },
+    { "input": "3\np 55\nq 60\nr 65\n", "output": "60\n" },
+    { "input": "1\nsolo 75\n", "output": "75\n" },
+    { "input": "4\na 0\nb 0\nc 0\nd 1\n", "output": "0\n" }
+  ],
+  "starterCode": ""
+}

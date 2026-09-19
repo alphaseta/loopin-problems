@@ -1,0 +1,52 @@
+{
+  "id": 1019,
+  "title": "좌표 이름표",
+  "category": "변수와 출력 (print)",
+  "level": 0,
+  "levelName": "Starter",
+  "timeLimit": 2000,
+  "description": "두 좌표를 변수 x와 y에 저장하고 각 변수의 이름과 값을 출력하세요.",
+  "inputDescription": "한 줄에 두 정수 x와 y가 공백으로 구분되어 주어진다.",
+  "outputDescription": "x와 y를 각각 x = 값, y = 값 형식으로 출력한다.",
+  "examples": [
+    {
+      "input": "3 5\n",
+      "output": "x = 3\ny = 5\n"
+    },
+    {
+      "input": "0 0\n",
+      "output": "x = 0\ny = 0\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "3 5\n",
+      "output": "x = 3\ny = 5\n"
+    },
+    {
+      "input": "0 0\n",
+      "output": "x = 0\ny = 0\n"
+    },
+    {
+      "input": "-4 9\n",
+      "output": "x = -4\ny = 9\n"
+    },
+    {
+      "input": "100 -100\n",
+      "output": "x = 100\ny = -100\n"
+    },
+    {
+      "input": "7 7\n",
+      "output": "x = 7\ny = 7\n"
+    },
+    {
+      "input": "-1 -2\n",
+      "output": "x = -1\ny = -2\n"
+    },
+    {
+      "input": "42 13\n",
+      "output": "x = 42\ny = 13\n"
+    }
+  ],
+  "starterCode": ""
+}

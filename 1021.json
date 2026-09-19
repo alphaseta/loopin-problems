@@ -1,0 +1,52 @@
+{
+  "id": 1021,
+  "title": "자리 바꿔 출력",
+  "category": "변수와 출력 (print)",
+  "level": 0,
+  "levelName": "Starter",
+  "timeLimit": 2000,
+  "description": "두 문자열을 변수에 저장한 뒤 두 변수의 출력 순서만 바꾸세요.",
+  "inputDescription": "첫째 줄과 둘째 줄에 문자열이 하나씩 주어진다.",
+  "outputDescription": "둘째 줄의 문자열을 먼저 출력하고 첫째 줄의 문자열을 다음 줄에 출력한다.",
+  "examples": [
+    {
+      "input": "apple\nbanana\n",
+      "output": "banana\napple\n"
+    },
+    {
+      "input": "왼쪽\n오른쪽\n",
+      "output": "오른쪽\n왼쪽\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "apple\nbanana\n",
+      "output": "banana\napple\n"
+    },
+    {
+      "input": "왼쪽\n오른쪽\n",
+      "output": "오른쪽\n왼쪽\n"
+    },
+    {
+      "input": "first\nsecond\n",
+      "output": "second\nfirst\n"
+    },
+    {
+      "input": "1번\n2번\n",
+      "output": "2번\n1번\n"
+    },
+    {
+      "input": "day\nnight\n",
+      "output": "night\nday\n"
+    },
+    {
+      "input": "hello\nworld\n",
+      "output": "world\nhello\n"
+    },
+    {
+      "input": "위\n아래\n",
+      "output": "아래\n위\n"
+    }
+  ],
+  "starterCode": ""
+}

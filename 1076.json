@@ -1,0 +1,23 @@
+{
+  "id": 1076,
+  "title": "특정 값 모두 제거",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "N개의 정수 리스트에서 값 K를 remove를 반복 호출하여 모두 제거하고 남은 수를 출력하세요.",
+  "inputDescription": "첫째 줄에 N과 K가 공백으로 구분되어 주어진다. 둘째 줄에 N개의 정수가 공백으로 구분되어 주어진다.",
+  "outputDescription": "K를 모두 제거한 후 남은 정수를 순서대로 공백으로 출력한다. 없으면 없음을 출력한다.",
+  "examples": [
+    { "input": "5 3\n1 3 2 3 4\n", "output": "1 2 4\n" }
+  ],
+  "tests": [
+    { "input": "5 3\n1 3 2 3 4\n", "output": "1 2 4\n" },
+    { "input": "4 7\n7 7 7 7\n", "output": "없음\n" },
+    { "input": "5 1\n2 3 4 5 6\n", "output": "2 3 4 5 6\n" },
+    { "input": "6 5\n5 3 5 1 5 2\n", "output": "3 1 2\n" },
+    { "input": "3 9\n1 2 3\n", "output": "1 2 3\n" },
+    { "input": "5 2\n2 2 2 2 2\n", "output": "없음\n" },
+    { "input": "4 4\n1 4 2 4\n", "output": "1 2\n" }
+  ],
+  "starterCode": ""
+}

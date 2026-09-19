@@ -1,0 +1,52 @@
+{
+  "id": 1047,
+  "title": "문장 속 단어 수",
+  "category": "문자열 메서드 (split, join, replace)",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "split으로 문장을 단어 목록으로 나눈 뒤 단어 수를 구하세요.",
+  "inputDescription": "첫째 줄에 단어가 하나 이상 포함된 문장이 주어진다. 단어 사이는 하나 이상의 공백이다.",
+  "outputDescription": "문장의 단어 수를 출력한다.",
+  "examples": [
+    {
+      "input": "I love Python\n",
+      "output": "3\n"
+    },
+    {
+      "input": "하나 둘 셋 넷\n",
+      "output": "4\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "I love Python\n",
+      "output": "3\n"
+    },
+    {
+      "input": "하나 둘 셋 넷\n",
+      "output": "4\n"
+    },
+    {
+      "input": "single\n",
+      "output": "1\n"
+    },
+    {
+      "input": "split   many   spaces\n",
+      "output": "3\n"
+    },
+    {
+      "input": "Loop In together\n",
+      "output": "3\n"
+    },
+    {
+      "input": "1 2 3 4 5 6\n",
+      "output": "6\n"
+    },
+    {
+      "input": "오늘도 좋은 하루\n",
+      "output": "3\n"
+    }
+  ],
+  "starterCode": ""
+}

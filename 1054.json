@@ -1,0 +1,52 @@
+{
+  "id": 1054,
+  "title": "경기 결과 문장",
+  "category": "문자열 포매팅 (f-string)",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "두 팀의 이름과 점수를 f-string으로 한 줄에 표시하세요.",
+  "inputDescription": "첫째 줄에 첫 번째 팀 이름과 점수, 둘째 줄에 두 번째 팀 이름과 점수가 주어진다. 팀 이름에는 공백이 없다.",
+  "outputDescription": "첫팀 점수 : 점수 둘째팀 형식으로 출력한다.",
+  "examples": [
+    {
+      "input": "Lions 3\nBears 2\n",
+      "output": "Lions 3 : 2 Bears\n"
+    },
+    {
+      "input": "Red 0\nBlue 0\n",
+      "output": "Red 0 : 0 Blue\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "Lions 3\nBears 2\n",
+      "output": "Lions 3 : 2 Bears\n"
+    },
+    {
+      "input": "Red 0\nBlue 0\n",
+      "output": "Red 0 : 0 Blue\n"
+    },
+    {
+      "input": "Alpha 12\nBeta 9\n",
+      "output": "Alpha 12 : 9 Beta\n"
+    },
+    {
+      "input": "Seoul 1\nBusan 4\n",
+      "output": "Seoul 1 : 4 Busan\n"
+    },
+    {
+      "input": "A 100\nB 99\n",
+      "output": "A 100 : 99 B\n"
+    },
+    {
+      "input": "Cats 7\nDogs 8\n",
+      "output": "Cats 7 : 8 Dogs\n"
+    },
+    {
+      "input": "Home 2\nAway 5\n",
+      "output": "Home 2 : 5 Away\n"
+    }
+  ],
+  "starterCode": ""
+}

@@ -1,0 +1,52 @@
+{
+  "id": 1050,
+  "title": "단어 찾아 바꾸기",
+  "category": "문자열 메서드 (split, join, replace)",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "문장에서 특정 단어를 다른 단어로 모두 바꾸세요.",
+  "inputDescription": "첫째 줄에 원문, 둘째 줄에 바꿀 문자열, 셋째 줄에 새 문자열이 주어진다.",
+  "outputDescription": "replace를 적용한 결과를 출력한다.",
+  "examples": [
+    {
+      "input": "I like cats\ncats\ndogs\n",
+      "output": "I like dogs\n"
+    },
+    {
+      "input": "banana\na\no\n",
+      "output": "bonono\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "I like cats\ncats\ndogs\n",
+      "output": "I like dogs\n"
+    },
+    {
+      "input": "banana\na\no\n",
+      "output": "bonono\n"
+    },
+    {
+      "input": "오늘은 맑고 내일도 맑다\n맑\n흐리\n",
+      "output": "오늘은 흐리고 내일도 흐리다\n"
+    },
+    {
+      "input": "aaaa\naa\nb\n",
+      "output": "bb\n"
+    },
+    {
+      "input": "Loop In Loop\nLoop\nCode\n",
+      "output": "Code In Code\n"
+    },
+    {
+      "input": "123123\n123\nX\n",
+      "output": "XX\n"
+    },
+    {
+      "input": "변경 없음\n없음\n있음\n",
+      "output": "변경 있음\n"
+    }
+  ],
+  "starterCode": ""
+}

@@ -1,0 +1,52 @@
+{
+  "id": 1062,
+  "title": "수의 부호",
+  "category": "기본 조건문 (if, else)",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "정수의 부호를 조건문으로 구분하세요.",
+  "inputDescription": "첫째 줄에 정수 N이 주어진다.",
+  "outputDescription": "양수이면 POSITIVE, 음수이면 NEGATIVE, 0이면 ZERO를 출력한다.",
+  "examples": [
+    {
+      "input": "1\n",
+      "output": "POSITIVE\n"
+    },
+    {
+      "input": "-1\n",
+      "output": "NEGATIVE\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "1\n",
+      "output": "POSITIVE\n"
+    },
+    {
+      "input": "-1\n",
+      "output": "NEGATIVE\n"
+    },
+    {
+      "input": "0\n",
+      "output": "ZERO\n"
+    },
+    {
+      "input": "999\n",
+      "output": "POSITIVE\n"
+    },
+    {
+      "input": "-500\n",
+      "output": "NEGATIVE\n"
+    },
+    {
+      "input": "42\n",
+      "output": "POSITIVE\n"
+    },
+    {
+      "input": "-100000\n",
+      "output": "NEGATIVE\n"
+    }
+  ],
+  "starterCode": ""
+}

@@ -1,0 +1,39 @@
+{
+  "id": 1013,
+  "title": "가장 자주 등장한 수",
+  "level": 3,
+  "levelName": "Advanced",
+  "timeLimit": 2000,
+  "description": "N개의 정수에서 가장 자주 등장한 수를 출력하세요. 등장 횟수가 같은 수가 여러 개라면 그중 가장 작은 수를 출력합니다.",
+  "inputDescription": "첫째 줄에 N이 주어진다. 둘째 줄에 N개의 정수가 공백으로 구분되어 주어진다. (1 ≤ N ≤ 100000)",
+  "outputDescription": "등장 횟수가 가장 많은 수를 출력한다. 동률이면 가장 작은 수를 출력한다.",
+  "examples": [
+    {
+      "input": "7\n1 2 2 3 3 3 2\n",
+      "output": "2\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "7\n1 2 2 3 3 3 2\n",
+      "output": "2\n"
+    },
+    {
+      "input": "1\n42\n",
+      "output": "42\n"
+    },
+    {
+      "input": "6\n-1 -1 -2 -2 -3 -3\n",
+      "output": "-3\n"
+    },
+    {
+      "input": "8\n5 5 5 2 2 3 3 3\n",
+      "output": "3\n"
+    },
+    {
+      "input": "10\n0 1 0 2 0 1 2 2 2 3\n",
+      "output": "2\n"
+    }
+  ],
+  "starterCode": ""
+}

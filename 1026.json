@@ -1,0 +1,52 @@
+{
+  "id": 1026,
+  "title": "입력 복사기",
+  "category": "기본 입력 (input)",
+  "level": 0,
+  "levelName": "Starter",
+  "timeLimit": 2000,
+  "description": "입력받은 문자열을 같은 줄에 두 번 출력하세요.",
+  "inputDescription": "첫째 줄에 공백이 없는 문자열이 주어진다.",
+  "outputDescription": "문자열 두 개를 공백 하나로 구분하여 출력한다.",
+  "examples": [
+    {
+      "input": "Loop\n",
+      "output": "Loop Loop\n"
+    },
+    {
+      "input": "파이썬\n",
+      "output": "파이썬 파이썬\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "Loop\n",
+      "output": "Loop Loop\n"
+    },
+    {
+      "input": "파이썬\n",
+      "output": "파이썬 파이썬\n"
+    },
+    {
+      "input": "7\n",
+      "output": "7 7\n"
+    },
+    {
+      "input": "hello\n",
+      "output": "hello hello\n"
+    },
+    {
+      "input": "반복\n",
+      "output": "반복 반복\n"
+    },
+    {
+      "input": "ABC\n",
+      "output": "ABC ABC\n"
+    },
+    {
+      "input": "input\n",
+      "output": "input input\n"
+    }
+  ],
+  "starterCode": ""
+}

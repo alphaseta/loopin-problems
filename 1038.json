@@ -1,0 +1,52 @@
+{
+  "id": 1038,
+  "title": "분과 초",
+  "category": "산술 연산자와 대입 연산자",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "분과 초를 모두 초 단위로 바꾸세요.",
+  "inputDescription": "한 줄에 0 이상인 정수 M분과 0 이상 59 이하인 정수 S초가 주어진다.",
+  "outputDescription": "전체 시간을 초 단위로 출력한다.",
+  "examples": [
+    {
+      "input": "1 30\n",
+      "output": "90\n"
+    },
+    {
+      "input": "0 0\n",
+      "output": "0\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "1 30\n",
+      "output": "90\n"
+    },
+    {
+      "input": "0 0\n",
+      "output": "0\n"
+    },
+    {
+      "input": "2 0\n",
+      "output": "120\n"
+    },
+    {
+      "input": "10 59\n",
+      "output": "659\n"
+    },
+    {
+      "input": "100 1\n",
+      "output": "6001\n"
+    },
+    {
+      "input": "5 45\n",
+      "output": "345\n"
+    },
+    {
+      "input": "60 30\n",
+      "output": "3630\n"
+    }
+  ],
+  "starterCode": ""
+}

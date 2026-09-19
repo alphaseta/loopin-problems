@@ -1,0 +1,52 @@
+{
+  "id": 1060,
+  "title": "하나라도 3의 배수",
+  "category": "비교 연산자와 논리 연산자",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "두 정수 중 하나라도 3의 배수인지 확인하세요.",
+  "inputDescription": "한 줄에 두 정수 A와 B가 주어진다.",
+  "outputDescription": "둘 중 하나 이상이 3의 배수이면 True, 아니면 False를 출력한다.",
+  "examples": [
+    {
+      "input": "3 5\n",
+      "output": "True\n"
+    },
+    {
+      "input": "1 2\n",
+      "output": "False\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "3 5\n",
+      "output": "True\n"
+    },
+    {
+      "input": "1 2\n",
+      "output": "False\n"
+    },
+    {
+      "input": "6 9\n",
+      "output": "True\n"
+    },
+    {
+      "input": "0 7\n",
+      "output": "True\n"
+    },
+    {
+      "input": "10 12\n",
+      "output": "True\n"
+    },
+    {
+      "input": "-3 4\n",
+      "output": "True\n"
+    },
+    {
+      "input": "8 11\n",
+      "output": "False\n"
+    }
+  ],
+  "starterCode": ""
+}

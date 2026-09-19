@@ -1,0 +1,52 @@
+{
+  "id": 1058,
+  "title": "안전한 점수 범위",
+  "category": "비교 연산자와 논리 연산자",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "점수가 0 이상 100 이하인지 논리 연산으로 확인하세요.",
+  "inputDescription": "첫째 줄에 정수 N이 주어진다.",
+  "outputDescription": "0 ≤ N ≤ 100이면 True, 아니면 False를 출력한다.",
+  "examples": [
+    {
+      "input": "0\n",
+      "output": "True\n"
+    },
+    {
+      "input": "100\n",
+      "output": "True\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "0\n",
+      "output": "True\n"
+    },
+    {
+      "input": "100\n",
+      "output": "True\n"
+    },
+    {
+      "input": "50\n",
+      "output": "True\n"
+    },
+    {
+      "input": "-1\n",
+      "output": "False\n"
+    },
+    {
+      "input": "101\n",
+      "output": "False\n"
+    },
+    {
+      "input": "999\n",
+      "output": "False\n"
+    },
+    {
+      "input": "73\n",
+      "output": "True\n"
+    }
+  ],
+  "starterCode": ""
+}

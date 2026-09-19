@@ -1,0 +1,52 @@
+{
+  "id": 1043,
+  "title": "두 번째와 뒤에서 두 번째",
+  "category": "문자열 인덱싱과 슬라이싱",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "앞에서 두 번째 문자와 뒤에서 두 번째 문자를 인덱싱하세요.",
+  "inputDescription": "첫째 줄에 길이가 2 이상인 공백 없는 문자열이 주어진다.",
+  "outputDescription": "두 문자를 공백으로 구분하여 출력한다.",
+  "examples": [
+    {
+      "input": "Python\n",
+      "output": "y o\n"
+    },
+    {
+      "input": "AB\n",
+      "output": "B A\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "Python\n",
+      "output": "y o\n"
+    },
+    {
+      "input": "AB\n",
+      "output": "B A\n"
+    },
+    {
+      "input": "가나다라\n",
+      "output": "나 다\n"
+    },
+    {
+      "input": "12345\n",
+      "output": "2 4\n"
+    },
+    {
+      "input": "LoopIn\n",
+      "output": "o I\n"
+    },
+    {
+      "input": "coding\n",
+      "output": "o n\n"
+    },
+    {
+      "input": "학교\n",
+      "output": "교 학\n"
+    }
+  ],
+  "starterCode": ""
+}

@@ -1,0 +1,25 @@
+{
+  "id": 1115,
+  "title": "조합의 수",
+  "level": 2,
+  "levelName": "Intermediate",
+  "timeLimit": 2000,
+  "description": "from itertools import combinations를 사용하여 N개 원소 중 K개를 선택하는 경우의 수를 출력하세요.",
+  "inputDescription": "두 정수 N과 K가 공백으로 구분되어 주어진다. (0 ≤ K ≤ N)",
+  "outputDescription": "nCk 값을 출력한다.",
+  "examples": [
+    { "input": "5 2\n", "output": "10\n" }
+  ],
+  "tests": [
+    { "input": "5 2\n", "output": "10\n" },
+    { "input": "4 2\n", "output": "6\n" },
+    { "input": "6 3\n", "output": "20\n" },
+    { "input": "10 5\n", "output": "252\n" },
+    { "input": "5 0\n", "output": "1\n" },
+    { "input": "5 5\n", "output": "1\n" },
+    { "input": "7 3\n", "output": "35\n" },
+    { "input": "8 4\n", "output": "70\n" },
+    { "input": "4 1\n", "output": "4\n" }
+  ],
+  "starterCode": ""
+}

@@ -1,0 +1,52 @@
+{
+  "id": 1055,
+  "title": "시험 점수표",
+  "category": "문자열 포매팅 (f-string)",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "이름과 점수를 보기 좋은 한 줄로 포매팅하세요.",
+  "inputDescription": "한 줄에 공백 없는 이름과 0 이상 100 이하의 정수 점수가 주어진다.",
+  "outputDescription": "[이름] 점수: 점수점 형식으로 출력한다.",
+  "examples": [
+    {
+      "input": "준우 95\n",
+      "output": "[준우] 점수: 95점\n"
+    },
+    {
+      "input": "Alice 100\n",
+      "output": "[Alice] 점수: 100점\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "준우 95\n",
+      "output": "[준우] 점수: 95점\n"
+    },
+    {
+      "input": "Alice 100\n",
+      "output": "[Alice] 점수: 100점\n"
+    },
+    {
+      "input": "민수 0\n",
+      "output": "[민수] 점수: 0점\n"
+    },
+    {
+      "input": "Python 88\n",
+      "output": "[Python] 점수: 88점\n"
+    },
+    {
+      "input": "하늘 60\n",
+      "output": "[하늘] 점수: 60점\n"
+    },
+    {
+      "input": "Kim 73\n",
+      "output": "[Kim] 점수: 73점\n"
+    },
+    {
+      "input": "A 1\n",
+      "output": "[A] 점수: 1점\n"
+    }
+  ],
+  "starterCode": ""
+}

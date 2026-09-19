@@ -1,0 +1,52 @@
+{
+  "id": 1023,
+  "title": "세 번의 입력",
+  "category": "기본 입력 (input)",
+  "level": 0,
+  "levelName": "Starter",
+  "timeLimit": 2000,
+  "description": "input을 세 번 사용하여 받은 값을 한 줄에 모아 출력하세요.",
+  "inputDescription": "세 줄에 문자열이 하나씩 주어진다.",
+  "outputDescription": "세 문자열을 공백으로 구분하여 한 줄에 출력한다.",
+  "examples": [
+    {
+      "input": "봄\n여름\n가을\n",
+      "output": "봄 여름 가을\n"
+    },
+    {
+      "input": "red\ngreen\nblue\n",
+      "output": "red green blue\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "봄\n여름\n가을\n",
+      "output": "봄 여름 가을\n"
+    },
+    {
+      "input": "red\ngreen\nblue\n",
+      "output": "red green blue\n"
+    },
+    {
+      "input": "1\n2\n3\n",
+      "output": "1 2 3\n"
+    },
+    {
+      "input": "가\n나\n다\n",
+      "output": "가 나 다\n"
+    },
+    {
+      "input": "alpha\nbeta\ngamma\n",
+      "output": "alpha beta gamma\n"
+    },
+    {
+      "input": "월\n화\n수\n",
+      "output": "월 화 수\n"
+    },
+    {
+      "input": "cat\ndog\nbird\n",
+      "output": "cat dog bird\n"
+    }
+  ],
+  "starterCode": ""
+}

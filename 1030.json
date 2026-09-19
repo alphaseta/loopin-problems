@@ -1,0 +1,52 @@
+{
+  "id": 1030,
+  "title": "비교 결과의 자료형",
+  "category": "자료형의 종류와 확인 (type)",
+  "level": 0,
+  "levelName": "Starter",
+  "timeLimit": 2000,
+  "description": "두 정수가 같은지 비교한 결과의 자료형을 확인하세요.",
+  "inputDescription": "한 줄에 두 정수가 공백으로 구분되어 주어진다.",
+  "outputDescription": "두 값을 비교한 결과에 type을 적용하여 출력한다.",
+  "examples": [
+    {
+      "input": "1 1\n",
+      "output": "<class 'bool'>\n"
+    },
+    {
+      "input": "1 2\n",
+      "output": "<class 'bool'>\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "1 1\n",
+      "output": "<class 'bool'>\n"
+    },
+    {
+      "input": "1 2\n",
+      "output": "<class 'bool'>\n"
+    },
+    {
+      "input": "0 0\n",
+      "output": "<class 'bool'>\n"
+    },
+    {
+      "input": "-3 3\n",
+      "output": "<class 'bool'>\n"
+    },
+    {
+      "input": "100 99\n",
+      "output": "<class 'bool'>\n"
+    },
+    {
+      "input": "-5 -5\n",
+      "output": "<class 'bool'>\n"
+    },
+    {
+      "input": "42 24\n",
+      "output": "<class 'bool'>\n"
+    }
+  ],
+  "starterCode": ""
+}

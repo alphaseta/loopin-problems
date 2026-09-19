@@ -1,0 +1,31 @@
+{
+    "id": 1002,
+    "title": "배열 뒤집기",
+    "level": 1,
+    "levelName": "Basic",
+    "timeLimit": 2000,
+    "description": "N개의 정수가 주어진다. 주어진 정수들을 역순으로 출력하세요.",
+    "inputDescription": "첫째 줄에 N이 주어진다. 둘째 줄에 N개의 정수가 주어진다.",
+    "outputDescription": "주어진 정수들을 역순으로 출력한다.",
+    "examples": [
+        {
+            "input": "5\n1 2 3 4 5\n",
+            "output": "5 4 3 2 1\n"
+        }
+    ],
+    "tests": [
+        {
+            "input": "5\n1 2 3 4 5\n",
+            "output": "5 4 3 2 1\n"
+        },
+        {
+            "input": "3\n10 20 30\n",
+            "output": "30 20 10\n"
+        },
+        {
+            "input": "1\n7\n",
+            "output": "7\n"
+        }
+    ],
+    "starterCode": ""
+}

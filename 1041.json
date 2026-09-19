@@ -1,0 +1,52 @@
+{
+  "id": 1041,
+  "title": "몫과 나머지",
+  "category": "산술 연산자와 대입 연산자",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "두 정수의 나눗셈 몫과 나머지를 구하세요.",
+  "inputDescription": "한 줄에 0 이상인 정수 A와 양의 정수 B가 주어진다.",
+  "outputDescription": "몫과 나머지를 공백으로 구분하여 출력한다.",
+  "examples": [
+    {
+      "input": "10 3\n",
+      "output": "3 1\n"
+    },
+    {
+      "input": "7 7\n",
+      "output": "1 0\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "10 3\n",
+      "output": "3 1\n"
+    },
+    {
+      "input": "7 7\n",
+      "output": "1 0\n"
+    },
+    {
+      "input": "0 5\n",
+      "output": "0 0\n"
+    },
+    {
+      "input": "100 9\n",
+      "output": "11 1\n"
+    },
+    {
+      "input": "25 4\n",
+      "output": "6 1\n"
+    },
+    {
+      "input": "999 10\n",
+      "output": "99 9\n"
+    },
+    {
+      "input": "42 8\n",
+      "output": "5 2\n"
+    }
+  ],
+  "starterCode": ""
+}

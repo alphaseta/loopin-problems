@@ -1,0 +1,52 @@
+{
+  "id": 1032,
+  "title": "문자열 숫자에 10 더하기",
+  "category": "형 변환 (Type Casting)",
+  "level": 0,
+  "levelName": "Starter",
+  "timeLimit": 2000,
+  "description": "입력받은 숫자 문자열을 정수로 변환한 뒤 10을 더하세요.",
+  "inputDescription": "첫째 줄에 -1000 이상 1000 이하의 정수가 문자열로 주어진다.",
+  "outputDescription": "입력값을 정수로 변환한 뒤 10을 더한 결과를 출력한다.",
+  "examples": [
+    {
+      "input": "0\n",
+      "output": "10\n"
+    },
+    {
+      "input": "5\n",
+      "output": "15\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "0\n",
+      "output": "10\n"
+    },
+    {
+      "input": "5\n",
+      "output": "15\n"
+    },
+    {
+      "input": "-10\n",
+      "output": "0\n"
+    },
+    {
+      "input": "42\n",
+      "output": "52\n"
+    },
+    {
+      "input": "999\n",
+      "output": "1009\n"
+    },
+    {
+      "input": "-1000\n",
+      "output": "-990\n"
+    },
+    {
+      "input": "1000\n",
+      "output": "1010\n"
+    }
+  ],
+  "starterCode": ""
+}

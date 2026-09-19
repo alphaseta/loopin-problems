@@ -1,0 +1,52 @@
+{
+  "id": 1051,
+  "title": "세 단어 머리글자",
+  "category": "문자열 메서드 (split, join, replace)",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "세 단어를 split하고 각 첫 문자를 점으로 join하여 약어를 만드세요.",
+  "inputDescription": "한 줄에 공백 없는 세 단어가 공백으로 구분되어 주어진다.",
+  "outputDescription": "각 단어의 첫 문자를 .으로 연결하여 출력한다.",
+  "examples": [
+    {
+      "input": "Hyper Text Markup\n",
+      "output": "H.T.M\n"
+    },
+    {
+      "input": "Cascading Style Sheets\n",
+      "output": "C.S.S\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "Hyper Text Markup\n",
+      "output": "H.T.M\n"
+    },
+    {
+      "input": "Cascading Style Sheets\n",
+      "output": "C.S.S\n"
+    },
+    {
+      "input": "Loop In Python\n",
+      "output": "L.I.P\n"
+    },
+    {
+      "input": "red green blue\n",
+      "output": "r.g.b\n"
+    },
+    {
+      "input": "하나 둘 셋\n",
+      "output": "하.둘.셋\n"
+    },
+    {
+      "input": "Alpha Beta Gamma\n",
+      "output": "A.B.G\n"
+    },
+    {
+      "input": "one Two three\n",
+      "output": "o.T.t\n"
+    }
+  ],
+  "starterCode": ""
+}

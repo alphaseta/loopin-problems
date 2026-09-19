@@ -1,0 +1,39 @@
+{
+  "id": 1006,
+  "title": "문자열 뒤집기",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "문자열 S가 주어질 때, S를 거꾸로 뒤집어 출력하세요.",
+  "inputDescription": "첫째 줄에 공백이 없는 문자열 S가 주어진다. S는 영문자와 숫자로 이루어져 있다. (1 ≤ |S| ≤ 1000)",
+  "outputDescription": "문자열 S의 문자 순서를 뒤집어 출력한다.",
+  "examples": [
+    {
+      "input": "LoopIn\n",
+      "output": "nIpooL\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "LoopIn\n",
+      "output": "nIpooL\n"
+    },
+    {
+      "input": "a\n",
+      "output": "a\n"
+    },
+    {
+      "input": "12345\n",
+      "output": "54321\n"
+    },
+    {
+      "input": "Python3\n",
+      "output": "3nohtyP\n"
+    },
+    {
+      "input": "abba\n",
+      "output": "abba\n"
+    }
+  ],
+  "starterCode": ""
+}

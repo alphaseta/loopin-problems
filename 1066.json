@@ -1,0 +1,52 @@
+{
+  "id": 1066,
+  "title": "더 큰 수 찾기",
+  "category": "기본 조건문 (if, else)",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "두 정수 중 더 큰 수를 조건문으로 찾으세요.",
+  "inputDescription": "한 줄에 두 정수 A와 B가 주어진다.",
+  "outputDescription": "두 수가 다르면 더 큰 수를 출력하고, 같으면 SAME을 출력한다.",
+  "examples": [
+    {
+      "input": "3 5\n",
+      "output": "5\n"
+    },
+    {
+      "input": "10 2\n",
+      "output": "10\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "3 5\n",
+      "output": "5\n"
+    },
+    {
+      "input": "10 2\n",
+      "output": "10\n"
+    },
+    {
+      "input": "7 7\n",
+      "output": "SAME\n"
+    },
+    {
+      "input": "-1 -5\n",
+      "output": "-1\n"
+    },
+    {
+      "input": "0 0\n",
+      "output": "SAME\n"
+    },
+    {
+      "input": "100 99\n",
+      "output": "100\n"
+    },
+    {
+      "input": "-10 20\n",
+      "output": "20\n"
+    }
+  ],
+  "starterCode": ""
+}

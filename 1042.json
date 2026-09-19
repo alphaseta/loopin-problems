@@ -1,0 +1,52 @@
+{
+  "id": 1042,
+  "title": "처음과 마지막 문자",
+  "category": "문자열 인덱싱과 슬라이싱",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "문자열 인덱싱으로 첫 문자와 마지막 문자를 찾으세요.",
+  "inputDescription": "첫째 줄에 길이가 1 이상인 공백 없는 문자열이 주어진다.",
+  "outputDescription": "첫 문자와 마지막 문자를 공백으로 구분하여 출력한다.",
+  "examples": [
+    {
+      "input": "Python\n",
+      "output": "P n\n"
+    },
+    {
+      "input": "A\n",
+      "output": "A A\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "Python\n",
+      "output": "P n\n"
+    },
+    {
+      "input": "A\n",
+      "output": "A A\n"
+    },
+    {
+      "input": "코딩\n",
+      "output": "코 딩\n"
+    },
+    {
+      "input": "12345\n",
+      "output": "1 5\n"
+    },
+    {
+      "input": "LoopIn\n",
+      "output": "L n\n"
+    },
+    {
+      "input": "가나다라마바사\n",
+      "output": "가 사\n"
+    },
+    {
+      "input": "xy\n",
+      "output": "x y\n"
+    }
+  ],
+  "starterCode": ""
+}

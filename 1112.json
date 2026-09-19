@@ -1,0 +1,26 @@
+{
+  "id": 1112,
+  "title": "제곱근 내림과 올림",
+  "level": 2,
+  "levelName": "Intermediate",
+  "timeLimit": 2000,
+  "description": "import math를 사용하여 N의 제곱근에 대한 내림값과 올림값을 출력하세요.",
+  "inputDescription": "양의 정수 N이 주어진다.",
+  "outputDescription": "math.floor(math.sqrt(N))과 math.ceil(math.sqrt(N))을 공백으로 구분하여 출력한다.",
+  "examples": [
+    { "input": "10\n", "output": "3 4\n" }
+  ],
+  "tests": [
+    { "input": "16\n", "output": "4 4\n" },
+    { "input": "10\n", "output": "3 4\n" },
+    { "input": "25\n", "output": "5 5\n" },
+    { "input": "2\n", "output": "1 2\n" },
+    { "input": "100\n", "output": "10 10\n" },
+    { "input": "50\n", "output": "7 8\n" },
+    { "input": "144\n", "output": "12 12\n" },
+    { "input": "20\n", "output": "4 5\n" },
+    { "input": "36\n", "output": "6 6\n" },
+    { "input": "99\n", "output": "9 10\n" }
+  ],
+  "starterCode": ""
+}

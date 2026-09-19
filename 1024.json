@@ -1,0 +1,52 @@
+{
+  "id": 1024,
+  "title": "성과 이름",
+  "category": "기본 입력 (input)",
+  "level": 0,
+  "levelName": "Starter",
+  "timeLimit": 2000,
+  "description": "성과 이름을 따로 입력받아 완성된 이름을 출력하세요.",
+  "inputDescription": "첫째 줄에 성, 둘째 줄에 이름이 주어진다.",
+  "outputDescription": "성과 이름을 붙여 한 줄에 출력한다.",
+  "examples": [
+    {
+      "input": "고\n준서\n",
+      "output": "고준서\n"
+    },
+    {
+      "input": "박\n하늘\n",
+      "output": "박하늘\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "고\n준서\n",
+      "output": "고준서\n"
+    },
+    {
+      "input": "박\n하늘\n",
+      "output": "박하늘\n"
+    },
+    {
+      "input": "이\n민수\n",
+      "output": "이민수\n"
+    },
+    {
+      "input": "최\n코딩\n",
+      "output": "최코딩\n"
+    },
+    {
+      "input": "Han\nSol\n",
+      "output": "HanSol\n"
+    },
+    {
+      "input": "A\nlice\n",
+      "output": "Alice\n"
+    },
+    {
+      "input": "루\n프\n",
+      "output": "루프\n"
+    }
+  ],
+  "starterCode": ""
+}

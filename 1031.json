@@ -1,0 +1,52 @@
+{
+  "id": 1031,
+  "title": "split 결과의 자료형",
+  "category": "자료형의 종류와 확인 (type)",
+  "level": 0,
+  "levelName": "Starter",
+  "timeLimit": 2000,
+  "description": "문자열에 split을 적용한 결과가 어떤 자료형인지 확인하세요.",
+  "inputDescription": "한 줄에 하나 이상의 단어가 공백으로 구분되어 주어진다.",
+  "outputDescription": "split 결과에 type을 적용한 값을 출력한다.",
+  "examples": [
+    {
+      "input": "one two\n",
+      "output": "<class 'list'>\n"
+    },
+    {
+      "input": "하나 둘 셋\n",
+      "output": "<class 'list'>\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "one two\n",
+      "output": "<class 'list'>\n"
+    },
+    {
+      "input": "하나 둘 셋\n",
+      "output": "<class 'list'>\n"
+    },
+    {
+      "input": "single\n",
+      "output": "<class 'list'>\n"
+    },
+    {
+      "input": "1 2 3 4\n",
+      "output": "<class 'list'>\n"
+    },
+    {
+      "input": "a b c\n",
+      "output": "<class 'list'>\n"
+    },
+    {
+      "input": "red green\n",
+      "output": "<class 'list'>\n"
+    },
+    {
+      "input": "Python type list\n",
+      "output": "<class 'list'>\n"
+    }
+  ],
+  "starterCode": ""
+}

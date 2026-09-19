@@ -1,0 +1,52 @@
+{
+  "id": 1053,
+  "title": "간단한 영수증",
+  "category": "문자열 포매팅 (f-string)",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "상품명, 가격, 개수를 f-string으로 포매팅하세요.",
+  "inputDescription": "한 줄에 공백 없는 상품명, 정수 가격, 정수 개수가 주어진다.",
+  "outputDescription": "상품명: 상품명, 합계: 금액원 형식으로 출력한다.",
+  "examples": [
+    {
+      "input": "연필 500 3\n",
+      "output": "상품명: 연필, 합계: 1500원\n"
+    },
+    {
+      "input": "노트 1200 2\n",
+      "output": "상품명: 노트, 합계: 2400원\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "연필 500 3\n",
+      "output": "상품명: 연필, 합계: 1500원\n"
+    },
+    {
+      "input": "노트 1200 2\n",
+      "output": "상품명: 노트, 합계: 2400원\n"
+    },
+    {
+      "input": "책 15000 1\n",
+      "output": "상품명: 책, 합계: 15000원\n"
+    },
+    {
+      "input": "사과 700 10\n",
+      "output": "상품명: 사과, 합계: 7000원\n"
+    },
+    {
+      "input": "키보드 45000 2\n",
+      "output": "상품명: 키보드, 합계: 90000원\n"
+    },
+    {
+      "input": "물 1000 0\n",
+      "output": "상품명: 물, 합계: 0원\n"
+    },
+    {
+      "input": "스티커 150 7\n",
+      "output": "상품명: 스티커, 합계: 1050원\n"
+    }
+  ],
+  "starterCode": ""
+}

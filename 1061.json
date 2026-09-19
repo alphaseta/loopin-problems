@@ -1,0 +1,52 @@
+{
+  "id": 1061,
+  "title": "정확히 한 명만 성인",
+  "category": "비교 연산자와 논리 연산자",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "두 사람 중 정확히 한 명만 19세 이상인지 확인하세요.",
+  "inputDescription": "한 줄에 두 사람의 나이 A와 B가 주어진다.",
+  "outputDescription": "정확히 한 명만 19세 이상이면 True, 아니면 False를 출력한다.",
+  "examples": [
+    {
+      "input": "19 18\n",
+      "output": "True\n"
+    },
+    {
+      "input": "20 30\n",
+      "output": "False\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "19 18\n",
+      "output": "True\n"
+    },
+    {
+      "input": "20 30\n",
+      "output": "False\n"
+    },
+    {
+      "input": "10 15\n",
+      "output": "False\n"
+    },
+    {
+      "input": "18 19\n",
+      "output": "True\n"
+    },
+    {
+      "input": "100 1\n",
+      "output": "True\n"
+    },
+    {
+      "input": "19 19\n",
+      "output": "False\n"
+    },
+    {
+      "input": "0 20\n",
+      "output": "True\n"
+    }
+  ],
+  "starterCode": ""
+}

@@ -1,0 +1,52 @@
+{
+  "id": 1037,
+  "title": "직사각형 계산",
+  "category": "산술 연산자와 대입 연산자",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "직사각형의 가로와 세로가 주어질 때 넓이와 둘레를 계산하세요.",
+  "inputDescription": "한 줄에 양의 정수 가로 W와 세로 H가 주어진다.",
+  "outputDescription": "첫째 줄에 넓이, 둘째 줄에 둘레를 출력한다.",
+  "examples": [
+    {
+      "input": "3 5\n",
+      "output": "15\n16\n"
+    },
+    {
+      "input": "1 1\n",
+      "output": "1\n4\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "3 5\n",
+      "output": "15\n16\n"
+    },
+    {
+      "input": "1 1\n",
+      "output": "1\n4\n"
+    },
+    {
+      "input": "10 2\n",
+      "output": "20\n24\n"
+    },
+    {
+      "input": "7 8\n",
+      "output": "56\n30\n"
+    },
+    {
+      "input": "100 50\n",
+      "output": "5000\n300\n"
+    },
+    {
+      "input": "4 9\n",
+      "output": "36\n26\n"
+    },
+    {
+      "input": "25 12\n",
+      "output": "300\n74\n"
+    }
+  ],
+  "starterCode": ""
+}

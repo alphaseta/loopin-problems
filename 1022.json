@@ -1,0 +1,52 @@
+{
+  "id": 1022,
+  "title": "메아리",
+  "category": "기본 입력 (input)",
+  "level": 0,
+  "levelName": "Starter",
+  "timeLimit": 2000,
+  "description": "input으로 받은 문장을 그대로 출력하세요.",
+  "inputDescription": "첫째 줄에 공백을 포함할 수 있는 문자열이 주어진다.",
+  "outputDescription": "입력받은 문자열을 그대로 출력한다.",
+  "examples": [
+    {
+      "input": "Hello, Python!\n",
+      "output": "Hello, Python!\n"
+    },
+    {
+      "input": "오늘도 한 문제\n",
+      "output": "오늘도 한 문제\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "Hello, Python!\n",
+      "output": "Hello, Python!\n"
+    },
+    {
+      "input": "오늘도 한 문제\n",
+      "output": "오늘도 한 문제\n"
+    },
+    {
+      "input": "123 456\n",
+      "output": "123 456\n"
+    },
+    {
+      "input": "공백 사이 단어\n",
+      "output": "공백 사이 단어\n"
+    },
+    {
+      "input": "Loop In\n",
+      "output": "Loop In\n"
+    },
+    {
+      "input": "A+B=C\n",
+      "output": "A+B=C\n"
+    },
+    {
+      "input": "끝까지 출력\n",
+      "output": "끝까지 출력\n"
+    }
+  ],
+  "starterCode": ""
+}

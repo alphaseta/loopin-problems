@@ -1,0 +1,39 @@
+{
+  "id": 1009,
+  "title": "연속된 정수의 합",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "두 정수 A와 B가 주어질 때, A부터 B까지 모든 정수의 합을 출력하세요.",
+  "inputDescription": "첫째 줄에 두 정수 A와 B가 공백으로 구분되어 주어진다. (-1000000 ≤ A ≤ B ≤ 1000000)",
+  "outputDescription": "A 이상 B 이하인 모든 정수의 합을 출력한다.",
+  "examples": [
+    {
+      "input": "1 10\n",
+      "output": "55\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "1 10\n",
+      "output": "55\n"
+    },
+    {
+      "input": "5 5\n",
+      "output": "5\n"
+    },
+    {
+      "input": "-3 3\n",
+      "output": "0\n"
+    },
+    {
+      "input": "-5 -2\n",
+      "output": "-14\n"
+    },
+    {
+      "input": "999999 1000000\n",
+      "output": "1999999\n"
+    }
+  ],
+  "starterCode": ""
+}

@@ -1,0 +1,52 @@
+{
+  "id": 1039,
+  "title": "만원의 거스름돈",
+  "category": "산술 연산자와 대입 연산자",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "10000원을 내고 물건을 샀을 때 받을 거스름돈을 구하세요.",
+  "inputDescription": "첫째 줄에 0 이상 10000 이하의 물건 가격이 주어진다.",
+  "outputDescription": "거스름돈을 출력한다.",
+  "examples": [
+    {
+      "input": "3500\n",
+      "output": "6500\n"
+    },
+    {
+      "input": "10000\n",
+      "output": "0\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "3500\n",
+      "output": "6500\n"
+    },
+    {
+      "input": "10000\n",
+      "output": "0\n"
+    },
+    {
+      "input": "0\n",
+      "output": "10000\n"
+    },
+    {
+      "input": "9999\n",
+      "output": "1\n"
+    },
+    {
+      "input": "1250\n",
+      "output": "8750\n"
+    },
+    {
+      "input": "7800\n",
+      "output": "2200\n"
+    },
+    {
+      "input": "500\n",
+      "output": "9500\n"
+    }
+  ],
+  "starterCode": ""
+}

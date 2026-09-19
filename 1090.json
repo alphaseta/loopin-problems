@@ -1,0 +1,24 @@
+{
+  "id": 1090,
+  "title": "중복 제거 후 개수",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "N개의 정수에서 집합(set)을 이용해 중복을 제거한 후 남은 원소의 개수를 출력하세요.",
+  "inputDescription": "첫째 줄에 N이 주어진다. 둘째 줄에 N개의 정수가 공백으로 구분되어 주어진다.",
+  "outputDescription": "중복 제거 후 원소의 개수를 출력한다.",
+  "examples": [
+    { "input": "7\n1 2 2 3 3 3 4\n", "output": "4\n" }
+  ],
+  "tests": [
+    { "input": "7\n1 2 2 3 3 3 4\n", "output": "4\n" },
+    { "input": "5\n1 1 1 1 1\n", "output": "1\n" },
+    { "input": "5\n1 2 3 4 5\n", "output": "5\n" },
+    { "input": "6\n10 20 10 20 10 20\n", "output": "2\n" },
+    { "input": "8\n1 2 3 1 2 3 1 2\n", "output": "3\n" },
+    { "input": "4\n100 200 300 400\n", "output": "4\n" },
+    { "input": "6\n5 5 5 5 5 5\n", "output": "1\n" },
+    { "input": "5\n1 2 3 4 1\n", "output": "4\n" }
+  ],
+  "starterCode": ""
+}

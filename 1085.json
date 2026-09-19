@@ -1,0 +1,23 @@
+{
+  "id": 1085,
+  "title": "전화번호부 조회",
+  "level": 2,
+  "levelName": "Intermediate",
+  "timeLimit": 2000,
+  "description": "N명의 이름과 전화번호를 딕셔너리에 저장하고, M번의 이름 조회에 대해 전화번호를 출력하세요. 없는 이름이면 없음을 출력합니다.",
+  "inputDescription": "첫째 줄에 N이 주어진다. 이후 N줄에 이름과 번호가 공백으로 주어진다. 다음 줄에 M, 이후 M줄에 조회할 이름이 주어진다.",
+  "outputDescription": "각 조회마다 전화번호 또는 없음을 출력한다.",
+  "examples": [
+    { "input": "3\nkim 11111\nlee 22222\npark 33333\n2\nkim\nchoi\n", "output": "11111\n없음\n" }
+  ],
+  "tests": [
+    { "input": "3\nkim 11111\nlee 22222\npark 33333\n2\nkim\nchoi\n", "output": "11111\n없음\n" },
+    { "input": "2\nalice 12345\nbob 67890\n2\nbob\ncarol\n", "output": "67890\n없음\n" },
+    { "input": "4\na 1\nb 2\nc 3\nd 4\n3\na\nc\ne\n", "output": "1\n3\n없음\n" },
+    { "input": "1\nonly 99999\n1\nonly\n", "output": "99999\n" },
+    { "input": "2\nx 100\ny 200\n2\ny\nz\n", "output": "200\n없음\n" },
+    { "input": "3\naa 111\nbb 222\ncc 333\n3\naa\nbb\ncc\n", "output": "111\n222\n333\n" },
+    { "input": "2\np 500\nq 600\n1\nr\n", "output": "없음\n" }
+  ],
+  "starterCode": ""
+}

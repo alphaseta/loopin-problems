@@ -1,0 +1,25 @@
+{
+  "id": 1111,
+  "title": "거듭제곱 함수",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "base의 exp제곱을 계산하는 함수 power(base, exp)를 def로 정의하고 호출하세요. 내장 pow() 함수 사용 없이 직접 구현하세요.",
+  "inputDescription": "정수 base와 0 이상의 정수 exp가 공백으로 구분되어 주어진다.",
+  "outputDescription": "base^exp를 출력한다.",
+  "examples": [
+    { "input": "2 10\n", "output": "1024\n" }
+  ],
+  "tests": [
+    { "input": "2 10\n", "output": "1024\n" },
+    { "input": "3 4\n", "output": "81\n" },
+    { "input": "5 0\n", "output": "1\n" },
+    { "input": "1 100\n", "output": "1\n" },
+    { "input": "10 5\n", "output": "100000\n" },
+    { "input": "2 0\n", "output": "1\n" },
+    { "input": "4 3\n", "output": "64\n" },
+    { "input": "7 3\n", "output": "343\n" },
+    { "input": "2 20\n", "output": "1048576\n" }
+  ],
+  "starterCode": ""
+}

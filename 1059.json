@@ -1,0 +1,52 @@
+{
+  "id": 1059,
+  "title": "둘 다 양수",
+  "category": "비교 연산자와 논리 연산자",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "두 정수가 모두 양수인지 확인하세요.",
+  "inputDescription": "한 줄에 두 정수 A와 B가 주어진다.",
+  "outputDescription": "A와 B가 모두 0보다 크면 True, 아니면 False를 출력한다.",
+  "examples": [
+    {
+      "input": "1 2\n",
+      "output": "True\n"
+    },
+    {
+      "input": "0 1\n",
+      "output": "False\n"
+    }
+  ],
+  "tests": [
+    {
+      "input": "1 2\n",
+      "output": "True\n"
+    },
+    {
+      "input": "0 1\n",
+      "output": "False\n"
+    },
+    {
+      "input": "-1 5\n",
+      "output": "False\n"
+    },
+    {
+      "input": "3 -4\n",
+      "output": "False\n"
+    },
+    {
+      "input": "-2 -3\n",
+      "output": "False\n"
+    },
+    {
+      "input": "100 100\n",
+      "output": "True\n"
+    },
+    {
+      "input": "7 9\n",
+      "output": "True\n"
+    }
+  ],
+  "starterCode": ""
+}

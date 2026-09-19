@@ -1,0 +1,24 @@
+{
+  "id": 1091,
+  "title": "부분집합 판별",
+  "level": 1,
+  "levelName": "Basic",
+  "timeLimit": 2000,
+  "description": "집합 A가 집합 B의 부분집합인지 판별하세요. (A의 모든 원소가 B에 포함되면 부분집합)",
+  "inputDescription": "첫째 줄에 집합 A의 원소들이 공백으로 주어진다. 둘째 줄에 집합 B의 원소들이 공백으로 주어진다.",
+  "outputDescription": "A가 B의 부분집합이면 YES, 아니면 NO를 출력한다.",
+  "examples": [
+    { "input": "1 2\n1 2 3 4\n", "output": "YES\n" }
+  ],
+  "tests": [
+    { "input": "1 2\n1 2 3 4\n", "output": "YES\n" },
+    { "input": "1 2 3\n1 2\n", "output": "NO\n" },
+    { "input": "5\n1 2 3 4 5\n", "output": "YES\n" },
+    { "input": "1 2 3\n1 2 3\n", "output": "YES\n" },
+    { "input": "10 20\n10 30\n", "output": "NO\n" },
+    { "input": "1\n1\n", "output": "YES\n" },
+    { "input": "7 8 9\n1 2 3\n", "output": "NO\n" },
+    { "input": "100\n100 200 300\n", "output": "YES\n" }
+  ],
+  "starterCode": ""
+}

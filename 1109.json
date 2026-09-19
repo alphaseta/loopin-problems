@@ -1,0 +1,25 @@
+{
+  "id": 1109,
+  "title": "피보나치 수열",
+  "level": 2,
+  "levelName": "Intermediate",
+  "timeLimit": 2000,
+  "description": "N번째 피보나치 수를 반환하는 함수 fib(n)을 def로 정의하고 호출하세요.\nF(1)=1, F(2)=1, F(n)=F(n-1)+F(n-2)",
+  "inputDescription": "양의 정수 N이 주어진다.",
+  "outputDescription": "N번째 피보나치 수를 출력한다.",
+  "examples": [
+    { "input": "5\n", "output": "5\n" }
+  ],
+  "tests": [
+    { "input": "1\n", "output": "1\n" },
+    { "input": "2\n", "output": "1\n" },
+    { "input": "5\n", "output": "5\n" },
+    { "input": "10\n", "output": "55\n" },
+    { "input": "3\n", "output": "2\n" },
+    { "input": "7\n", "output": "13\n" },
+    { "input": "15\n", "output": "610\n" },
+    { "input": "20\n", "output": "6765\n" },
+    { "input": "6\n", "output": "8\n" }
+  ],
+  "starterCode": ""
+}
